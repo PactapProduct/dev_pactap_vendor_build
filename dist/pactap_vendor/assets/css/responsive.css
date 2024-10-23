@@ -98,6 +98,20 @@
     .form-box .form-group label.btn { padding: 10px 10px;font-size: 12px;}
     .name_info .upload-box {width: 280px;height: 280px;}
 	
+    .sidebar-brand>a>img {
+        width: 70px;
+    }
+    .alert-warning-small span {
+        padding: 0px 5px;
+    }
+    .request_sample .table tr td .btn {
+        width: 100px;
+        padding: 4px 0;
+    }
+    .column-btns .dropdown .btn {
+        font-size: 12px;
+    }
+    
 	
     
     
@@ -262,7 +276,9 @@
 
  
     
-      
+    .specs{
+        height: auto;
+    }
 }
 
 @media  (max-width: 991px) {
@@ -300,6 +316,21 @@
         width: 13px;
     }
     .navigation{ top:15px; }
+    .account_dashboard .login-white-box {
+        padding: 12px 12px;
+    }
+    .leadsCustomer-border::after {
+        display: none;
+     }
+     .login-white-box, .mainBox .login-white-box, .bgGrayBox{
+        padding: 10px;
+     }
+     .showastext {
+        font-size: 14px;
+    }
+    
+    
+   
 }
 
 /*---------- MEDIA 480px ----------*/
@@ -309,7 +340,7 @@
     .listFilter .input-group{ height: 40px; }
     .listFilter select, .listFilter input{ font-size: 12px; height: 40px; }
     .listFilter .input-group input{ height: 38px; }
-    .account_dashboard .login-white-box{ padding: 15px; border-radius: 10px; }
+    .account_dashboard .login-white-box{ padding: 12px; border-radius: 10px; }
     .dashboardMain{ padding: 15px; display: block;}
     .login-white-box{padding: 10px; }
     .form-box .form-check, .table .form-check{ margin-left: 0; }
@@ -482,6 +513,9 @@
     .cpyrgt-wrap p span.space {
     margin-left: 0px;
     margin-right: 0px;}
+
+
+   
     
     
    
@@ -686,6 +720,16 @@
     .thanksgray-box h4 {font-size: 16px;}
     .thanksgray-box .list-group-item {font-size: 13px;}
     .thanksgray-box .list-group-item .badge {font-size: 12px;}    
+
+    .sample-popup-form .modal-body {
+        padding: 12px;
+    }
+    .previousQuotes .sample-popup-form h1 {
+        font-size: 20px;
+    }
+    .previousQuotes .sample-popup-form h1 span {
+        font-size: 14px;
+    }
     
 }
 
@@ -742,12 +786,12 @@
     .listFilter .bankDetails .btn{font-size: 11px;width: 130px;}
     .performance a {padding: 10px 9px 10px;font-size: 8px;margin-right: 0px;display: block;text-align: center;margin-bottom: 10px;}
     
-    .prod.list-view .itemList .main_btn a.btn {margin-top: 10px;}
+    .prod.list-view .itemList .main_btn a.btn {margin-top: 4px;}
     .prod.list-view .itemList .main_btn .btn{width: 100%;}
     .prod.list-view .itemList .productsPerformance a{ padding: 10px 11px 10px; margin-right: 5px;}
     .prod.list-view .itemList .productsPerformance{gap:20px;}
     .prod.list-view .itemList{ padding: 20px 15px 20px;}
-    .prod.list-view .itemList .main_btn{margin-top: 15px;}
+    /* .prod.list-view .itemList .main_btn{margin-top: 15px;} */
     
     
      /*===================Add Product list PAGE ==================*/
@@ -758,10 +802,10 @@
     .newDashboard {width: 100%;margin-top: 25px;    }
     
     /*===================My Leads Page Css ==================*/
-    .leadsCustomer{margin-bottom: 25px;padding: 0px 0px 0px;}
+    .leadsCustomer{margin-bottom: 10px;padding: 0px 0px 0px;}
     .leadsCustomer::after{display: none}
-    .leadMain .prod.list-view .itemList{margin-bottom: 0px;padding: 0px 15px 0px;}
-    .sliderMain .leadsSlider{padding: 0 0 0;}
+    .leadMain .prod.list-view .itemList{margin-bottom: 0px;padding: 10px;}
+    .sliderMain .leadsSlider{padding: 6px;}
     .sliderMain .leadsSlider .leadSliderInfo ul{    min-height: 130px;}
     .sliderMain .carousel-control-prev {left: 0;}
     .sliderMain .carousel-control-next {right: 0; }
@@ -772,7 +816,7 @@
     /*===================My Product Page Css ==================*/
     .product-page-header .rightColumnDrop .main_btn .btn{padding: 8px 40px 7px 20px;padding-right: 10px;font-size: 12px;}
     .product-page-header .rightColumnDrop .main_btn .formIcons{left: 11px;top: 8px;}
-    .product-page-header .rightColumnDrop .main_btn .btn {width: 130px;}
+    /* .product-page-header .rightColumnDrop .main_btn .btn {width: 130px;} */
     .product-page-header .rightColumnDrop{gap:10px;}
     .product-page-header .rightColumnDrop .formIcons {top: 7px;left: 17px;}
     
